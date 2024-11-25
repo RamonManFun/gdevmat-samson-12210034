@@ -49,7 +49,7 @@ void drawLinearFunction()
   
   for (int x = -80; x <= 80; x++)
   {
-    circle(x * -5, x + 30, 5);
+    circle(x, -5 * x + 30, 5);
   }
 }
 
